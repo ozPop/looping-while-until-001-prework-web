@@ -3,12 +3,8 @@ def using_while
 
 	#your code here
   phrase = "Wingardium Leviosa"
-  loop do
-    if levitation_force < 10
-      levitation_force += 1
-    else
-      break
-    end
+  while levitation_force < 10
+    levitation_force += 1
     puts phrase
   end
 end
